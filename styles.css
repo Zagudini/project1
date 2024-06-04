@@ -8,12 +8,13 @@
 }
 
 body {
+    font-family: Raleway;
     max-width: 1920px;
     background-color: #F6F3FF;
     ;
 }
 
-.header {
+.header_main {
     height: 80px;
     margin-top: 25px;
     display: flex;
@@ -30,13 +31,12 @@ body {
 }
 
 .header_item {
-    padding: 10px 10px;
+    padding-right: 20px;
     margin-left: auto;
 }
 
 .lang_switcher_btn,
-.header_link {
-    font-family: Raleway;
+.header_anchor {
     font-size: 18px;
     font-weight: 700;
     line-height: 21.13px;
@@ -48,25 +48,30 @@ body {
 
 
 .header_icons {
-    margin: auto;
+    padding: 10px 10px;
+
 }
 
-.header_email {
-    font-family: Raleway;
+.header_icon {
+    padding: 5px;
+}
+
+.header_email,
+.footer_email {
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
     text-align: left;
-    color: linear-gradient(316.82deg, #4526DC 6.37%, #8066FF 93.57%);
+    color: #8066FF;
 
 }
 
-.header_links {
+.header_anchors {
     padding-right: 50px;
 }
 
-.header_link {
-    padding: 10px;
+.header_anchor {
+    padding: 20px;
 
 }
 
@@ -78,10 +83,90 @@ body {
     padding: 15px 30px 15px 30px;
     border-radius: 10px;
     cursor: pointer;
-    font-family: Raleway;
     font-size: 16px;
     font-weight: 700;
     line-height: 18.78px;
-    text-align: left;
+    text-align:left;
+    
 
+}
+
+.main {
+    height: 400px;
+    margin-top: 25px;
+    background-color: aqua;
+}
+
+.footer_main {
+    height: 169px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footer_row1,
+.footer_row2,
+.footer_row3,
+.footer_row4 {
+    flex: 1 0 46%;
+    display: flex;
+    align-items: center;
+}
+
+.footer_row2,
+.footer_row4 {
+    justify-content: flex-end;
+}
+
+.footer_item {
+    padding-right: 50px;
+
+}
+
+.footer_anchors{
+    padding: 50px 50px;
+}
+
+.footer_anchor{
+font-size: 18px;
+font-weight: 700;
+line-height: 21.13px;
+text-align: left;
+color: #34333C;
+padding-right: 15px;
+
+}
+
+.footer_icon {
+    padding: 5px;
+}
+.footer_text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: right;
+     
+}
+.footer_link_forum{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.4px;
+    text-align: right;
+    color:#8066FF;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    
+}
+
+.footer_link {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.4px;
+    text-align: left;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: #34333C;
+    padding: 10px;
 }
