@@ -16,6 +16,8 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #cdc5ff;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .header_row1 {
     display: flex;
@@ -29,17 +31,19 @@
     padding: 10px 10px;
     margin-left: auto;
 }
-.header_logo {
-    margin-left: 50px;
-}
+
 .header_icons {
     margin: auto;
 }
+.header_links{
+    padding-right: 50px;
+}
 .cuby_button {
+    color: white;
     background-color: #4526dc;
     width: 191px;
     height: 50px;
     padding: 15px 30px 15px 30px;
-    margin-right: 50px;
     border-radius: 10px;
+
 }
