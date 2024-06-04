@@ -31,16 +31,18 @@
     padding: 10px 10px;
     margin-left: auto;
 }
-
 .header_icons {
     margin: auto;
 }
 .header_links{
     padding-right: 50px;
 }
+.header_link{
+  padding: 10px;  
+}
 .cuby_button {
     color: white;
-    background-color: #4526dc;
+    background: linear-gradient(316.82deg, #4526DC 6.37%, #8066FF 93.57%);
     width: 191px;
     height: 50px;
     padding: 15px 30px 15px 30px;
