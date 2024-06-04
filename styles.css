@@ -6,10 +6,13 @@
     list-style-type: none;
     text-decoration: none;
 }
-.body {
+
+body {
     max-width: 1920px;
-    background-color: #f6f3ff;
+    background-color: #F6F3FF;
+    ;
 }
+
 .header {
     height: 80px;
     margin-top: 25px;
@@ -19,27 +22,54 @@
     padding-left: 50px;
     padding-right: 50px;
 }
-.header_row1 {
-    display: flex;
-    align-items: center;
-}
+
+.header_row1,
 .header_row2 {
     display: flex;
     align-items: center;
 }
+
 .header_item {
     padding: 10px 10px;
     margin-left: auto;
 }
+
+.lang_switcher_btn,
+.header_link {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.13px;
+    text-align: left;
+    cursor: pointer;
+    color: #34333C;
+
+}
+
+
 .header_icons {
     margin: auto;
 }
-.header_links{
+
+.header_email {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: linear-gradient(316.82deg, #4526DC 6.37%, #8066FF 93.57%);
+
+}
+
+.header_links {
     padding-right: 50px;
 }
-.header_link{
-  padding: 10px;  
+
+.header_link {
+    padding: 10px;
+
 }
+
 .cuby_button {
     color: white;
     background: linear-gradient(316.82deg, #4526DC 6.37%, #8066FF 93.57%);
@@ -47,5 +77,11 @@
     height: 50px;
     padding: 15px 30px 15px 30px;
     border-radius: 10px;
+    cursor: pointer;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.78px;
+    text-align: left;
 
 }
