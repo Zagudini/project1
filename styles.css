@@ -95,11 +95,40 @@ body {
 
 }
 
-main {
+.devops_practic {
     width: 100%;
     height: 400px;
     margin-top: 25px;
     background-color: aqua;
+}
+
+.container_white {
+    width: 100%;
+    background-color: white;
+    radius: 100px;
+    border-radius: 100px;
+    padding: 50px;
+
+}
+
+.solutions {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.solutions_articles {
+    display: flex;
+    text-align: left;
+}
+
+.solutions_article1 {}
+
+.solutions_article2 {
+    flex-direction: column;
+}
+
+.solutions_article3 {
+    flex-direction: column;
 }
 
 .footer_main {
@@ -116,7 +145,7 @@ main {
 .footer_row2,
 .footer_row3,
 .footer_row4 {
-    flex: 1 0 46%;
+    flex: 0 0 46%;
     display: flex;
     align-items: center;
 }
