@@ -17,6 +17,63 @@ body {
   background-color: #f6f3ff;
 }
 
+h1 {
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 80px;
+  color: #34333c;
+}
+
+.title_colored_h1 {
+  font-size: 115px;
+  font-weight: 800;
+  line-height: 115px;
+  background-image: linear-gradient(316.82deg, #4526dc 6.37%, #8066ff 93.57%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+h2 {
+  font-size: 65px;
+  font-weight: 800;
+  line-height: 71.5px;
+  color: #34333c;
+}
+
+.title_colored {
+  background: linear-gradient(316.82deg, #4526dc 6.37%, #8066ff 93.57%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35.22px;
+  color: #4C30F6;
+  padding: 10px 0px;
+
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #34333C;
+  padding: 5px 0px;
+}
+
+p {
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  color: #34333C;
+
+}
+
 .header_main {
   width: 100%;
   min-height: 80px;
@@ -90,7 +147,8 @@ body {
   font-size: 16px;
   font-weight: 700;
   line-height: 18.78px;
-  text-align: left;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .devops_practic {
@@ -110,7 +168,6 @@ body {
 .solutions {
   width: 100%;
   text-align: center;
-  padding-bottom: 20px;
 }
 
 .solutions_articles {
@@ -118,35 +175,40 @@ body {
   text-align: left;
   gap: 20px;
   padding: 50px 35px;
+}
 
-}
 .solutions_article1,
-.solutions_articles_row{
-  flex: 0 0 50%;  
+.solutions_articles_row {
+  flex: 0 0 50%;
 }
-.solutions_articles_row{
-display: flex;
-flex-direction: column;
-align-items: stretch;
-align-content: stretch;
-gap: 20px;
+
+.solutions_articles_row {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  align-content: stretch;
+  gap: 20px;
+}
+
+.solutions_article2,
+.solutions_article3 {
+  flex: 0 0 50%;
+  padding: 40px 35px 40px 35px;
 }
 
 .solutions_article1,
 .solutions_article2,
 .solutions_article3 {
-  background-color: #E9E0ff;
+  background-color: #e9e0ff;
   border-radius: 30px;
-  padding-bottom: 20px;
 }
-
 
 .advantages {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-
+  padding: 50px 0px;
 }
 
 .advantages_heading {
@@ -162,7 +224,6 @@ gap: 20px;
   flex: 0 0 32%;
   border-radius: 20px;
   padding: 30px 35px 40px 35px;
-
 }
 
 .advantages_article1,
@@ -170,7 +231,7 @@ gap: 20px;
 .advantages_article3,
 .advantages_article4,
 .advantages_article5 {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 .footer_main {
@@ -236,12 +297,12 @@ gap: 20px;
 }
 
 .footer_link {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 23.4px;
-    text-align: left;
-    text-decoration: underline;
-    text-underline-offset: 5px;
-    color: #34333C;
-    padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+  text-align: left;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  color: #34333c;
+  padding: 10px;
 }
