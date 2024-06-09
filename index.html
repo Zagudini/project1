@@ -15,38 +15,40 @@
 <body>
     <div class="container">
         <header class="header_main">
-            <div class="header_row1">
-                <a class="header_item header_logo" href="#">
-                    <img src="img/%D0%BB%D0%BE%D0%B3%D0%BE.svg" weight="139px" height="36px" alt="Логотип" />
-                </a>
-
-                <div class="header_item lang_switcher">
-                    <button class="lang_switcher_btn">RUS</button>
-                    <img src="img/arrow.png" alt="Стрелка">
-                </div>
-                <div class="header_item header_icons">
-                    <a class="header_skype header_icon" href="#">
-                        <img src="img/skype.png" alt="скайп" />
+            <div class="container_header">
+                <div class="header_row1">
+                    <a class="header_logo" href="#">
+                        <img src="img/%D0%BB%D0%BE%D0%B3%D0%BE.svg" weight="139px" height="36px" alt="Логотип" />
                     </a>
 
-                    <a class="header_tg header_icon" href="#">
-                        <img src="img/tg.png" alt="телеграм" />
+                    <div class="header_item lang_switcher">
+                        <button class="lang_switcher_btn">RUS</button>
+                        <img src="img/arrow.png" alt="Стрелка">
+                    </div>
+                    <div class="header_item header_icons">
+                        <a class="header_skype header_icon" href="#">
+                            <img src="img/skype.png" alt="скайп" />
+                        </a>
+
+                        <a class="header_tg header_icon" href="#">
+                            <img src="img/tg.png" alt="телеграм" />
+                        </a>
+                    </div>
+                    <a class="header_item header_email" href="#">
+                        <span>info@cuby.net</span>
                     </a>
                 </div>
-                <a class="header_item header_email" href="#">
-                    <span>info@cuby.net</span>
-                </a>
-            </div>
 
-            <div class="header_row2">
-                <nav class="header_item header_anchors">
-                    <a class="header_anchor" href="#">Услуги</a>
+                <div class="header_row2">
+                    <nav class="header_anchors">
+                        <a class="header_anchor" href="#">Услуги</a>
 
-                    <a class="header_anchor" href="#">О компании</a>
-                </nav>
-                <button class="header_item header_button cuby_button">
-                    <span>Оставить заявку</span>
-                </button>
+                        <a class="header_anchor" href="#">О компании</a>
+                    </nav>
+                    <button class="header_item cuby_button">
+                        <span>Оставить заявку</span>
+                    </button>
+                </div>
             </div>
         </header>
         <main>
@@ -59,10 +61,13 @@
                     <div class="solutions_articles">
                         <article class="solutions_article1">
                             <img class="article_foto" src="img/фото_внедрения.png" alt="Фото">
-                            <h3>Внедрение CI&CD</h3>
-                            <p>Обеспеченим стабильную работу вашей инфраструктуры, повысим призводительность и ускорим
-                                процесс
-                                разработки</p>
+                            <div class="solutions_article1_text">
+                                <h3>Внедрение CI&CD</h3>
+                                <p>Обеспеченим стабильную работу вашей инфраструктуры, повысим призводительность и
+                                    ускорим
+                                    процесс
+                                    разработки</p>
+                            </div>
                         </article>
                         <div class="solutions_articles_row">
                             <article class="solutions_article2">
@@ -124,59 +129,89 @@
                     </article>
                 </div>
                 <div class="form_call">
-                    <h2>Оставьте заявку на обратный звонок</h2>
+                    <div class="form_call_row1">
+                        <h2>Оставьте заявку<br>на обратный звонок</h2>
+                        <p class="form_call_text">Наши специалисты свяжутся с вами<br> в ближайшее время и ответят на
+                            все<br> интересующие вас вопросы
+                        </p>
+                    </div>
+                    <div class="form_call_row2">
+                        <form action="#">
+                            <div class="form_input">
+                                <label for="name">Имя</label>
+                                <input type="text" name="name" placeholder="Имя" required>
+                            </div>
+                            <div class="form_input">
+                                <label for="phone">Телефон</label>
+                                <input type="tel" name="phone" placeholder="Телефон" required>
+                            </div>
+                            <div class="form_input">
+                                <label for="message">Сообщение (не обязательно)</label>
+                                <input type="textarea" name="message" placeholder="Сообщение (не обязательно)">
+                            </div>
+                            <div class="form_checkbox">
+                                <label for="checkbox">Я даю согласие на обработку персональных данных</label>
+                                <input type="checkbox" name="checkbox" required> <span>Я даю
+                                    согласие на обработку персональных данных</span>
+                            </div>
+                            <div class="form_button">
+                                <button class="button_form" type="submit">Отправить</button>
+                            </div>
+                    </div>
                 </div>
             </div>
         </main>
         <footer class="footer_main">
-            <div class="footer_row1">
-                <a class="footer_item footer_logo" href="#">
-                    <img src="img/%D0%BB%D0%BE%D0%B3%D0%BE.svg" weight="139px" height="36px" alt="Логотип" />
-                </a>
-                <nav class="footer_item footer_anchors">
-                    <a class="footer_anchor" href="#">О компании</a>
+            <div class="container_footer">
+                <div class="footer_row1">
+                    <a class="footer_item footer_logo" href="#">
+                        <img src="img/%D0%BB%D0%BE%D0%B3%D0%BE.svg" weight="139px" height="36px" alt="Логотип" />
+                    </a>
+                    <nav class="footer_item footer_anchors">
+                        <a class="footer_anchor" href="#">О компании</a>
 
-                    <a class="footer_anchor" href="#">Услуги</a>
-                </nav>
-                <a class="footer_item footer_email" href="#">
-                    <span>info@cuby.net</span>
-            </div>
-            <div class="footer_row2">
-                <div class="footer_item footer_icons">
-                    <a class="footer_youtube footer_icon" href="#">
-                        <img src="img/icons_footer/youtube.png" alt="Ютуб" />
-                    </a>
-                    <a class="footer_skype footer_icon" href="#">
-                        <img src="img/icons_footer/skype_40_40.png" alt="Скайп" />
-                    </a>
-                    <a class="footer_tg footer_icon" href="#">
-                        <img src="img/icons_footer/tg_40_40.png" alt="Телеграм" />
-                    </a>
-                    <a class="footer_git footer_icon" href="#">
-                        <img src="img/icons_footer/github.png" alt="Гитхаб" />
-                    </a>
-                    <a class="footer_mumble footer_icon" href="#">
-                        <img src="img/icons_footer/mumble.png" alt="Мамбл" />
-                    </a>
+                        <a class="footer_anchor" href="#">Услуги</a>
+                    </nav>
+                    <a class="footer_item footer_email" href="#">
+                        <span>info@cuby.net</span>
+                </div>
+                <div class="footer_row2">
+                    <div class="footer_item footer_icons">
+                        <a class="footer_youtube footer_icon" href="#">
+                            <img src="img/icons_footer/youtube.png" alt="Ютуб" />
+                        </a>
+                        <a class="footer_skype footer_icon" href="#">
+                            <img src="img/icons_footer/skype_40_40.png" alt="Скайп" />
+                        </a>
+                        <a class="footer_tg footer_icon" href="#">
+                            <img src="img/icons_footer/tg_40_40.png" alt="Телеграм" />
+                        </a>
+                        <a class="footer_git footer_icon" href="#">
+                            <img src="img/icons_footer/github.png" alt="Гитхаб" />
+                        </a>
+                        <a class="footer_mumble footer_icon" href="#">
+                            <img src="img/icons_footer/mumble.png" alt="Мамбл" />
+                        </a>
+
+                    </div>
+                    <p class="footer_text">Участвуй в обсуждении <br>
+                        с нами на <a class="footer_link_forum" href="#">форуме СUBY</a></p>
 
                 </div>
-                <p class="footer_text">Участвуй в обсуждении <br>
-                    с нами на <a class="footer_link_forum" href="#">форуме СUBY</a></p>
 
-            </div>
+                <div class="footer_row3">
+                    <p class="footer_text">&copy 2023 Cuby</p>
+                </div>
+                <div class="footer_row4">
+                    <nav class="footer_item footer_links">
+                        <a class="footer_link" href="#">Политика конфиденициальности</a>
 
-            <div class="footer_row3">
-                <p class="footer_text">&copy 2023 Cuby</p>
-            </div>
-            <div class="footer_row4">
-                <nav class="footer_item footer_links">
-                    <a class="footer_link" href="#">Политика конфиденициальности</a>
-
-                    <a class="footer_link" href="#">Дизайн</a>
-                </nav>
-                <div class="footer_item lang_switcher">
-                    <button class="lang_switcher_btn">RUS</button>
-                    <img src="img/arrow.png" alt="Стрелка">
+                        <a class="footer_link" href="#">Дизайн</a>
+                    </nav>
+                    <div class="footer_item lang_switcher">
+                        <button class="lang_switcher_btn">RUS</button>
+                        <img src="img/arrow.png" alt="Стрелка">
+                    </div>
                 </div>
             </div>
         </footer>
