@@ -93,7 +93,7 @@ p {
 }
 
 .header_item {
-  padding-left: 40px;
+  padding-right: 50px;
 }
 
 .lang_switcher_btn,
@@ -148,6 +148,7 @@ p {
   height: 200px;
   margin-top: 25px;
   background-color: aqua;
+  padding: 50px 50px;
 }
 
 .container_white {
@@ -244,15 +245,17 @@ p {
   padding: 0px 50px;
   border-radius: 30px;
   display: flex;
-  align-items: center;
+  align-items:start;
   justify-content: space-between;
   padding: 100px;
   margin-bottom: 50px;
   gap: 25px;
 }
 
-.form_input, .form_checkbox, .form_button {
-padding-bottom: 20px;  
+.form_input,
+.form_checkbox,
+.form_button {
+  padding-bottom: 20px;
 }
 
 .form_call_row1,
@@ -265,37 +268,41 @@ padding-bottom: 20px;
   font-weight: 500;
   line-height: 39px;
   text-align: left;
-  color: #34333C;
+  color: #34333c;
   padding-top: 15px;
-
-}
-
-.form_call_row2 {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 23.4px;
-  text-align: left;
 }
 
 label {
   display: none;
 }
 
-input[type=text],
-input[type=tel] {
+input[type="text"],
+input[type="tel"] {
   width: 600px;
   height: 54px;
   padding: 16px 20px 16px 20px;
-  border-radius: 10px
+  border-radius: 10px;
 }
 
-input[type=textarea] {
+input[type="textarea"] {
   width: 600px;
   height: 133px;
   padding: 16px 20px 16px 20px;
   border-radius: 10px;
 }
 
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.checkbox_text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  color: #34333c;
+}
 
 .button_form {
   color: white;
@@ -337,10 +344,6 @@ input[type=textarea] {
 
 .footer_item {
   padding-right: 50px;
-}
-
-.footer_anchors {
-  padding: 50px 50px;
 }
 
 .footer_anchor {
