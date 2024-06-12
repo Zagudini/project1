@@ -245,7 +245,7 @@ p {
   padding: 0px 50px;
   border-radius: 30px;
   display: flex;
-  align-items:start;
+  align-items: start;
   justify-content: space-between;
   padding: 100px;
   margin-bottom: 50px;
@@ -276,22 +276,22 @@ label {
   display: none;
 }
 
-input[type="text"],
-input[type="tel"] {
+.input_name,
+.input_phone {
   width: 600px;
   height: 54px;
   padding: 16px 20px 16px 20px;
   border-radius: 10px;
 }
 
-input[type="textarea"] {
+.input_message {
   width: 600px;
   height: 133px;
   padding: 16px 20px 16px 20px;
   border-radius: 10px;
 }
 
-input[type="checkbox"] {
+.input_checkbox {
   width: 20px;
   height: 20px;
   border-radius: 5px;
