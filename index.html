@@ -5,44 +5,222 @@
     <meta charset="UTF-8" />
     <title>Cuby</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <script src="script.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <header class="header">
-            <div class="header_row1">
-                <a class="header_item header_logo" href="#">
-                    <img src="img/%D0%BB%D0%BE%D0%B3%D0%BE.svg" weight="139px" height="36px" alt="Логотип" />
-                </a>
-
-                <div class="header_item lang_switcher">
-                    <button class="lang_switcher_btn">RUS</button>
-                </div>
-                <div class="header_item header_icons">
-                    <a class="header_skype" href="#">
-                        <img src="img/skype.png" alt="скайп" />
+        <header class="header_main">
+            <div class="container_header">
+                <div class="header_row1">
+                    <a class="header_item header_logo" href="#">
+                        <img src="img/logo.svg" weight="139px" height="36px" alt="Логотип" />
                     </a>
 
-                    <a class="header_tg" href="#">
-                        <img src="img/tg.png" alt="телеграм" />
+                    <div class="header_item lang_switcher">
+                        <button class="lang_switcher_btn">RUS</button>
+                        <img src="img/arrow.png" alt="Стрелка">
+                    </div>
+                    <div class="header_item header_icons">
+                        <a class="header_skype header_icon" href="#">
+                            <img src="img/icons_header/skype_32.png" alt="скайп" />
+                        </a>
+
+                        <a class="header_tg header_icon" href="#">
+                            <img src="img/icons_header/tg_32.png" alt="телеграм" />
+                        </a>
+                    </div>
+                    <a class="header_item header_email" href="#">
+                        <span>info@cuby.net</span>
                     </a>
                 </div>
-                <a class="header_item header_email" href="#">
-                    <span>info@cuby.net</span>
-                </a>
-            </div>
 
-            <div class="header_row2">
-                <a class="header_item header_link" href="#">Услуги</a>
+                <div class="header_row2">
+                    <nav class="header_item header_anchors">
+                        <a class="header_anchor" href="#">Услуги</a>
 
-                <a class="header_item header_link" href="#">О компании</a>
-                <button class="header_item header_button cuby_button">
-                    Оставить заявку
-                </button>
+                        <a class="header_anchor" href="#">О компании</a>
+                    </nav>
+                    <button class="header_item cuby_button">
+                        <span>Оставить заявку</span>
+                    </button>
+                </div>
             </div>
         </header>
+        <main>
+            <div class="devops_practic">
+                <h1>Внедряем практики <span class="title_colored_h1">DevOps</span></h1>
+            </div>
+            <div class="container_white">
+                <div class="solutions">
+                    <h2 class="solutions_heading">Решения и <span class="title_colored">услуги</span></h2>
+                    <div class="solutions_articles">
+                        <article class="solutions_article1">
+                            <img class="article_foto" src="img/фото_внедрения.png" alt="Фото">
+                            <div class="solutions_article1_text">
+                                <h3>Внедрение CI&CD</h3>
+                                <p>Обеспеченим стабильную работу вашей инфраструктуры, повысим призводительность и
+                                    ускорим
+                                    процесс
+                                    разработки</p>
+                            </div>
+                        </article>
+                        <div class="solutions_articles_row">
+                            <article class="solutions_article2">
+                                <img class="article_icon" src="img/иконка_оркестрации.png" alt="Иконка">
+                                <h3>Настройка систем оркестрации</h3>
+                                <p>Автоматизируем планирование, развертывания, масштабируемости, балансировки нагрузки,
+                                    доступности и организации сетей контейнеров</p>
+                            </article>
+                            <article class="solutions_article3">
+                                <img class="article_icon" src="img/иконка_мониторинга.png" alt="Иконка">
+                                <h3>Мониторинг IT-инфраструктуры</h3>
+                                <p>Сбор и анализ параметров системы. Обнаружение неполадок в отдельных сервисах и оценка
+                                    их
+                                    влияния на все Ит-инфраструктры</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="advantages">
+                    <h2 class="advantages_heading">Настраиваем <br> CI/CD пайплайн <br> <span
+                            class="title_colored">более 10 лет</span></h2>
+                    <article class="advantages_article1">
+                        <img src="img/иконка ошибки.svg" alt="Иконка">
+                        <h4>Устранение ошибок</h4>
+                        <p class="advantages_paragraph">Технология CI/CD предупреждает и устраняет ошибки в разработке,
+                            позволяет ускорить сборку и
+                            повысить качество продукта. Изменения вносятся быстрее, сокращая скорость сборки с одного
+                            дня до нескольких минут</p>
+                    </article>
+                    <article class="advantages_article2">
+                        <img src="img/иконка технология.svg" alt="Иконка">
+                        <h4>Актуальные технологии</h4>
+                        <p class="advantages_paragraph">Мы следим за новыми технологиями в индустрии, поэтому внедряем
+                            самые актуальные подходы,
+                            имеющиеся на рынке</p>
+                    </article>
+                    <article class="advantages_article3">
+                        <img src="img/иконка контроль.svg" alt="Иконка">
+                        <h4>Контроль и прозрачность</h4>
+                        <p class="advantages_paragraph">Мы пользуемся практикой IaC, обеспечивая больший контроль и
+                            прозрачность разработки в новой
+                            среде</p>
+                    </article>
+                    <article class="advantages_article4">
+                        <img src="img/иконка скорость.svg" alt="Иконка">
+                        <h4>Скорость и качество</h4>
+                        <p class="advantages_paragraph">Наши клиенты очень разные: от стартапов до крупного бизнеса.
+                            Скорость и качество сборки
+                            становятся вашим конкурентным преимуществом, а в условиях растущей конкуренции –
+                            необходимостью</p>
+                    </article>
+                    <article class="advantages_article5">
+                        <img src="img/иконка подход.svg" alt="Иконка">
+                        <h4>Индивидуальный подход</h4>
+                        <p class="advantages_paragraph">Индивидуальный подход
+                            С нами просто найти общий язык: мы выбираем методики для вашей задачи и решения, подходящие
+                            под вашу ситуацию. Мы ценим наших клиентов и поддерживаем с ними долговременные отношения
+                        </p>
+                    </article>
+                </div>
+                <div class="form_call">
+                    <div class="form_call_row1">
+                        <h2>Оставьте заявку<br>на обратный звонок</h2>
+                        <p class="form_call_text">Наши специалисты свяжутся с вами<br> в ближайшее время и ответят на
+                            все<br> интересующие вас вопросы
+                        </p>
+                    </div>
+                    <div class="form_call_row2">
+                        <form action="#">
+                            <div class="form_input">
+                                <label for="name">Имя</label>
+                                <input class="input_name" type="text" name="name" id="name" placeholder="Имя" required>
+                            </div>
+                            <div class="form_input">
+                                <label for="phone">Телефон </label>
+                                <input class="input_phone" type="tel" name="phone" id="phone" placeholder="Телефон"
+                                    required>
+                            </div>
+                            <div class="form_input">
+                                <label for="message">Сообщение (не обязательно)</label>
+                                <input class="input_message" type="textarea" name="message" id="message"
+                                    placeholder="Сообщение (не обязательно)">
+                            </div>
+                            <div class="form_checkbox">
+                                <label for="checkbox">Я даю согласие на обработку персональных данных</label>
+                                <input class="input_checkbox" type="checkbox" name="checkbox" id="checkbox" required>
+                                <span class="checkbox_text">Я даю
+                                    согласие на обработку персональных данных</span>
+                            </div>
+                            <div class="form_button">
+                                <button class="button_form" type="submit">Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer_main">
+            <div class="container_footer">
+                <div class="footer_row1">
+                    <a class="footer_item footer_logo" href="#">
+                        <img src="img/logo.svg" weight="139px" height="36px" alt="Логотип" />
+                    </a>
+                    <nav class="footer_item footer_anchors">
+                        <a class="footer_anchor" href="#">О компании</a>
+
+                        <a class="footer_anchor" href="#">Услуги</a>
+                    </nav>
+                    <a class="footer_item footer_email" href="#">
+                        <span>info@cuby.net</span>
+                </div>
+                <div class="footer_row2">
+                    <div class="footer_item footer_icons">
+                        <a class="footer_youtube footer_icon" href="#">
+                            <img src="img/icons_footer/youtube.png" alt="Ютуб" />
+                        </a>
+                        <a class="footer_skype footer_icon" href="#">
+                            <img src="img/icons_footer/skype_40_40.png" alt="Скайп" />
+                        </a>
+                        <a class="footer_tg footer_icon" href="#">
+                            <img src="img/icons_footer/tg_40_40.png" alt="Телеграм" />
+                        </a>
+                        <a class="footer_git footer_icon" href="#">
+                            <img src="img/icons_footer/github.png" alt="Гитхаб" />
+                        </a>
+                        <a class="footer_mumble footer_icon" href="#">
+                            <img src="img/icons_footer/mumble.png" alt="Мамбл" />
+                        </a>
+
+                    </div>
+                    <p class="footer_text">Участвуй в обсуждении <br>
+                        с нами на <a class="footer_link_forum" href="#">форуме СUBY</a></p>
+
+                </div>
+
+                <div class="footer_row3">
+                    <p class="footer_text">&copy 2023 Cuby</p>
+                </div>
+                <div class="footer_row4">
+                    <nav class="footer_item footer_links">
+                        <a class="footer_link" href="#">Политика конфиденициальности</a>
+
+                        <a class="footer_link" href="#">Дизайн</a>
+                    </nav>
+                    <div class="lang_switcher">
+                        <button class="lang_switcher_btn">RUS</button>
+                        <img src="img/arrow.png" alt="Стрелка">
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
+
 </body>
 
 </html>
